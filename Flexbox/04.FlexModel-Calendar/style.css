@@ -1,0 +1,66 @@
+html {
+
+ font-family: Helvetica, sans-serif;
+ margin-top: 75px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+
+div {
+    max-width: 65vw;
+    margin: 0px auto;
+    display: flex;
+    border: 1px solid black;
+}
+
+span {
+  border: 1px solid black;
+  padding: 20px 20px 70px 20px;
+}
+
+div, section {
+    display: flex;
+    align-items: center;
+    
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+}
+
+.week span {
+    flex-grow: 1;
+}
+
+.workweek, .weekend,reminders, .special-dates{
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.notes {
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+   
+}
+
+.reminders, .special-dates {
+    flex-grow: 1;
+    padding: 100px;
+    
+} 
+
+.weekend {
+  padding-bottom: 88px;
+}
