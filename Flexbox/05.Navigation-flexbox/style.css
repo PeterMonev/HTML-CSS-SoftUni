@@ -1,0 +1,45 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 50px;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-basis: 20%;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    flex-basis: 70%;
+}
+
+
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    
+}
+
+h2 {
+    font-size: 24px;
+}
