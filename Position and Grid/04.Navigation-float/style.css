@@ -1,0 +1,112 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 70px auto;
+    max-width: 1000px;
+    background-color: rgb(238, 238, 238);
+}
+
+a {
+   color: rgb(0, 102, 0);
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.site-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.header-nav {
+    display: inline-block;
+    
+}
+
+.header-nav ul {
+    padding-left: 525px;
+}
+
+.header-nav ul li  {
+    display: inline-block;
+    list-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.first-img {
+    float: right;
+    margin-left: 20px;
+    border: 4px solid black;
+    padding: 10px;
+    max-width: 180px;
+}
+
+main {
+    width: 65%;
+    float: left;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    vertical-align: top;
+}
+
+.second-img {
+    float: left;
+    margin-right: 20px;
+    border: 4px solid black;
+    padding: 10px;
+    max-width: 180px;
+}
+
+blockquote {
+    display: inline-block;
+    font-family: Georgia, serif;
+    border-left: 3px solid lightgrey;
+    color: #757171;
+    font-style: italic;
+    padding-left: 24px;
+    margin-left: 200px;
+    
+}
+
+h3, h1 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+.saying {
+    display: inline-block;
+   
+}
+
+.main-container-quote-author {
+    padding-left: 250px;
+    margin-bottom: 50px;
+}
+
+.middle {
+    display: inline-block;
+    
+}
