@@ -1,0 +1,41 @@
+i {
+    color: black;
+}
+
+ul {
+    
+    list-style: none;
+    
+}
+
+a {
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+    font-size: 20px;
+}
+
+#face:hover {
+    color:blue
+}
+
+#twitter:hover {
+    color:aqua
+}
+
+#g:hover {
+    color: red
+}
+
+#link:hover {
+    color:aquamarine
+}
+
+#insta:hover {
+    color: lightblue
+}
