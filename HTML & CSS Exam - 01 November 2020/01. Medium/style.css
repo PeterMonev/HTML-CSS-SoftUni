@@ -1,0 +1,82 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2,h3, h4, h5, h6 {
+    font-family: "Georgia",
+}
+
+p,li,a,button {
+    font-family: "Helvetica",
+}
+
+section {
+    width: 80vw;
+    margin-top: 27px;
+    margin-left:220px;
+    position: relative;
+   
+}
+
+section nav h1 {
+    font-size: 71px;
+    letter-spacing: 1.7px;
+    margin-bottom: 8px;
+    
+}
+
+section nav p {
+    font-size: 24px;
+    margin-bottom: 51px;
+    color: gray;
+}
+
+section article {
+    width: 45%;
+    position: absolute;
+    left: 535px;
+    top: 155px;
+}
+
+section article h4{
+    font-size: 22px;
+    margin-bottom: 35px;
+    font-weight: 900;
+}
+
+
+
+section article p span {
+  background-color: #CEFDE9;
+}
+
+section article p {
+    font-size: 24px;
+    color: gray;
+    line-height: 1.2;
+}
+
+section button {
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    background-color: #03A87C;
+    padding: 15px 75px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute; 
+    top:360px;
+    
+}
+
+hr {
+    margin-top: 378px;
+    width: 24%;
+    margin-left: 570px;
+
+}
