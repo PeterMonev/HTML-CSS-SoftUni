@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif; 
+    margin: 0px 8% 0px 8%;
+  
+}
+
+nav {
+    position: relative;  
+
+}
+
+#HustleCase {
+    color: white;   
+    font-size: 24px;
+    position: absolute;
+    top: 13%; 
+    left: 14%
+}
+ 
+#cart {
+    color: white;
+    position: absolute;
+    top: 13%; 
+    right: 14%;
+    font-size: 26px;
+}
+
+button {
+    position: absolute;
+    background-color: #00D08E;
+    font-size: 20px;
+    color: white;
+    top: 47%;
+    left: 47%;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 15px;   
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+header {
+    background-image:
+     linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.31) 53%,rgba(0,0,0,0.01) 98%,rgba(0,0,0,0) 100%),
+     url(./image/computer-main.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 75vh; 
+    text-shadow: 2px 2px black;
+    grid-area: header;
+}
+
+.title {
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    top: 10%;
+    left: 25.5%;
+}
+
+.header__p {
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 34%;
+    font-size: 26px;
+    text-align: center;
+    padding-right: 550px;
+}
+
+a {
+    position: absolute;
+    top: 61%;
+    left: 45%;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+a i {
+    margin-left: 8px;  
+
+}
+
+/* Second Part */
+
+main{
+  
+    display: grid;
+  width: 100wv;
+  height: 100vh;
+  grid-template-areas:
+    "div1 section1"
+    "section2 div2"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr; 
+}
+
+.div1{
+    background-image: url(./image/tablet.jpg);
+    grid-area: div1;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 50vh;
+    width: 50wh;
+}
+
+.section1 {
+    grid-area: section1;
+    padding:  10px 100px 0px 65px;
+    margin-right: 20px;
+}
+
+.section1 h1 {
+    font-size: 32px;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+}
+
+.section1 p {
+    font-size: 22px;
+    margin: 0px 0px 20px 0px;
+}
+
+.section1 ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.section1 ul li {
+    padding: 10px;
+    font-size: 18px;
+  
+}
+
+.section1 ul i {
+   color: #00D08E;
+   padding-right: 25px;
+   font-size: 20px;
+}
+
+.section2 {
+    grid-area: section2;
+    display: grid;
+    grid-template-areas:
+    "h1 h1 h1"
+    "article1 article2 article3"
+    "article4 article5 article6"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    text-align: center; 
+    padding: 0px 100px 10px 100px;
+
+    
+}
+
+.section2 h1 {
+    grid-area: h1;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.div2{
+    background-image: url(./image/pen.jpg);
+    grid-area: div2;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 50vh;
+    width: 50wh;
+}
+
+img{
+   height: 60%;
+    width: 45%;
+}
+
+.section2 p {
+    color: #00D08E;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 auto;
+    
+}
+
+
+.article1 {
+    grid-area: article1;
+    
+}
+.article2 {
+    grid-area: article2;
+}
+
+.article3 {
+    grid-area: article3;
+}
+
+.article4 {
+    grid-area: article4;
+    
+}
+.article5 {
+    grid-area: article5;
+}
+.article6 {
+    grid-area: article6;
+     
+}
+
+footer {
+    display: grid;
+    grid-area: footer;
+    background-color: #B2F1DD;
+    grid-template-areas:
+    "h3 h3 h3"
+    "section1 section2 section3"
+    "section4 section5 section6"
+    ". footer .";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    padding: 0px 100px 0px 100px;
+    gap: 60px;
+}
+ 
+main footer h1 {
+    grid-area: h3;
+    text-align: center;
+    margin-bottom: 0px;
+     font-size: 40px;
+
+}
+
+
+
+footer section h3{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+
+.section1F{
+    grid-area: section1;
+    text-align: center;
+}
+
+.section1F h3{
+    grid-area: section1;
+    text-align: center;
+    font-weight: bold;
+    font-size:26px;
+    margin: 0 auto;
+}
+.section1F p{
+    grid-area: section1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.section2F{
+    grid-area: section2;
+    text-align: center;
+}
+
+.section2F h3{
+    grid-area: section1;
+    text-align: center;
+    font-weight: bold;
+    font-size:26px;
+    margin: 0 auto;
+}
+.section2F p{
+    grid-area: section1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.section3F{
+    grid-area: section3;
+    text-align: center;
+}
+
+.section3F h3{
+    grid-area: section1;
+    text-align: center;
+    font-weight: bold;
+    font-size:26px;
+    margin: 0 auto;
+}
+.section3F p{
+    grid-area: section1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.section4F{
+    grid-area: section4;
+    text-align: center;
+}
+
+.section4F h3{
+    grid-area: section1;
+    text-align: center;
+    font-weight: bold;
+    font-size:26px;
+    margin: 0 auto;
+}
+.section4F p{
+    grid-area: section1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.section5F{
+    grid-area: section5;
+    text-align: center;
+}
+
+.section5F h3{
+    grid-area: section1;
+    text-align: center;
+    font-weight: bold;
+    font-size:26px;
+    margin: 0 auto;
+}
+.section5F p{
+    grid-area: section1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.section6F{
+    grid-area: section6;
+    text-align: center;
+}
+
+.section6F h3{
+    grid-area: section1;
+    text-align: center;
+    font-weight: bold;
+    font-size:26px;
+    margin: 0 auto;
+}
+.section6F p{
+    grid-area: section1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.footer__foot {
+    grid-area: footer;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
