@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: Open Sans, serif;
+    background-color: #E9E9E9;
+}
+
+body{
+    margin: 8% 20% 8% 20%;
+}
+
+.left{
+    display: inline-block;
+    background-color: black;
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    float: left;
+    border-radius: 4px;
+    box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.135);
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.right{
+    display: inline-block;
+    background-color: white;
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    float: right;
+    border-radius: 4px;
+    box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.135);
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    position: relative;
+}
+
+.left p {
+    color: white;
+    margin: 35px 0 0 35px;
+    font-size: 14px;
+    font-weight: bold;
+ 
+}
+
+.left h1 {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 175px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.left h4{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.left ul {
+    text-decoration: none;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 155px 60px 0 0px;
+    
+}
+
+.left ul i {
+    font-size:16px;
+    color: white;
+}
+#first__title{
+  margin: 40px 0 10px 40px ;
+  color: #D0D2D4;
+  font-weight: normal;
+}
+
+
+.right input{
+   border: none;
+   border-bottom: 1.6px solid #D0D2D4;
+   width: 80%;
+   margin-left: 40px;
+ 
+}
+
+.right p {
+    padding-left: 60px;
+    margin-top: 40px;
+    margin: 0 auto;
+    color: grey;
+    font-size: 18px;
+  
+}
+
+.right h4 {
+    margin: 15px 0 10px 40px ;
+    color: #D0D2D4;
+    font-weight: normal;
+  
+}
+
+.right button {
+    position: absolute;
+    bottom: 40px;
+    right: 260px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    border-radius: 20px;
+}
+
+.ninja{ 
+    
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+    text-decoration: underline;
+    color:#D0D2D4
+}
