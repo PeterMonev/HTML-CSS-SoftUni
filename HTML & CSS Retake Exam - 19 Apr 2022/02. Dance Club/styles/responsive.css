@@ -1,0 +1,48 @@
+@media (max-width: 800px) {
+    nav ul, nav,nav ul li{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    nav p {
+        margin: 0px 0px 20px 40px;
+    }
+
+    .trainings {
+      display: block;
+    }
+
+    .trainings div {
+      width: 50%;
+    }
+
+    .instructors ul{
+        display: block;
+    }
+
+    .map {
+        margin-right: 50px;
+        width: 100%;
+    }
+
+    .getInTouch button {
+        padding: 10px 32px;
+        font-size: 12px;
+    }
+
+    .site-footer .about{
+        flex: 0 0 50%;
+        
+    }
+
+    .site-footer .wrapper{
+        gap: 30px;
+        font-size: 10px;
+    }
+
+    .site-footer .contacts{
+        margin-right: 30px;
+        overflow: hidden;
+    }
+}
