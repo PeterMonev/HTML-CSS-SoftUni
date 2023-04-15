@@ -1,0 +1,74 @@
+@media (max-width: 600px){
+    
+    #home > section.container-fluid.hero > img {
+        display: none;
+    }
+    
+    .container nav a {
+        margin-left: 40%;
+    }
+
+    section .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         text-align: center;
+    }
+    
+    .hero h1 {
+      margin-top: 80px;
+    }
+
+    .hero .hero-btns {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    #about-us > div > div.container > div > div.col-12.col-sm-12.col-lg-4.service-txt > div {
+        margin-bottom: 80px;
+    }
+
+    .about {
+        margin-bottom: 40px;
+    }
+
+    .service .side2-img img {
+        position: absolute;
+        top: 1600px;
+    }
+     
+    .service-box {
+        display: block;
+      text-align: left;
+    }
+
+   .col-lg-6, h5 {
+    margin-top: 40px;
+   }
+
+   #contact-us > div > div:nth-child(3) > div:nth-child(2) > div > a {
+    display: none;
+   }
+   
+   .contact-nav {
+     display: flex;
+     flex-direction: column;
+     gap: 6px;
+   }
+   
+   body > footer > div > div > div > h3 {
+    margin: 20px 40px 30px 40px;
+    text-align: center;
+   }
+
+   footer{
+     margin-top: 15px;
+   }
+
+   footer h6 {
+    padding-bottom: 0px;
+   }
+}
