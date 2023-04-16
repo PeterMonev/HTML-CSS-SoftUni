@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    margin: 30px 30px 30px 30px;
+    font-family: Raleway, serif;
+}
+
+section {
+    background-color: #EFEFEF;
+    height: 60vh;
+}
+
+.section__one {
+    position: relative;
+}
+
+.section__one nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   text-align: end; 
+   padding: 25px;
+ 
+}
+
+.section__one nav i {
+  padding-left: 10px;
+}
+
+.section_info_one {
+    width: 29%;
+    padding: 20px 40px 70px 70px;
+    margin-left: 20px;
+  
+}
+
+.section__one  img {
+    position: absolute;
+    width: 30%;
+    left: 55%;
+    top: 25%;
+}
+
+.info_border {
+    height: 50px;
+    border-left: 1px solid black;
+   
+}
+
+.section__one p {
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 2;
+    font-size: 12px;
+ 
+}
+
+.section__one .title {
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section__one {
+    margin-bottom: 25px;
+}
+
+/* Section 2 */
+
+.section__two {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.section__two_border {
+    width: 15%;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin-bottom: 10px;
+   
+}
+
+.section__two__article h1 {
+    display: inline-block;
+    font-size: 26px;
+    padding-left: 20px;
+}
+
+.section__two__article h1 span {
+    font-weight: normal;
+    
+}
+
+.section__two__article {
+    position: absolute;
+    width: 32%;
+    left: 50%;
+    top: 10%;
+    overflow: hidden;
+}
+
+.section__two_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style: none;
+    gap: 15px;
+    padding-top: 15px;
+    padding-left: 0;
+    
+}
+
+.section__two_ul li a i {
+    
+   font-size: 22px;
+   color: grey;
+}
+
+.section__two__article  p {
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 12px;    
+}
+
+.section__two  .camera {
+    position: absolute;
+    width: 25%;
+    right:  65%;
+    bottom: 10%;
+}
+
+
+
+/* Section Three */
+.section__three {
+
+ background-image: url(./images/thumb-1.jpeg);
+ margin-bottom: 25px;
+}
+
+/* Section four */
+
+.section_four {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.section_info_four {
+    width: 22%;
+    padding: 100px 40px 70px 70px;
+    margin-left: 20px;
+}
+
+.section_four h1 {
+    font-size: 30px;
+}
+
+.section_four h1 span {
+    font-weight: normal;
+
+}
+
+.section_four img{
+    position: absolute;
+    width: 40%;
+    bottom: 10%;
+    left: 50%;
+}
+
+.section_info_four p {
+    font-style: italic;
+    line-height: 1.5;
+    font-size: 12px;  
+    margin-bottom: 20px;
+}
+
+
+
+/* Section Five */
+
+.section__five {
+    margin-bottom: 25px;
+    position: relative;
+    align-items: center;
+    
+   
+}
+
+.img1 img {
+    position: absolute;
+     z-index: 1;
+     width: 20%;
+     top: 30%;
+     right: 57%;
+}
+
+.img3 img{
+    position: absolute;
+    z-index: 2;
+    width: 20%;
+    top: 30%;
+    left: 58%;
+    
+}
+
+body > section.section__five > div.img2 > img {
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+/* Section Six */
+
+.section__six {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section__six form {
+    width: 54%;
+    height: 70%;
+}
+
+.section__six h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.section__six h1 span {
+    font-weight: normal;
+}
+
+.section__six p {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.section__six textarea{
+    display: block;
+    margin: 20px 0px 25px 200px;
+   
+}
+
+.section__six .email {
+   margin-left: 200px;
+   padding: 7px 10px 7px 7px;
+   margin-right: 15px;
+}
+
+.section__six .subject {
+    padding: 7px 14px 7px 7px;
+}
+
+.section__six button {
+    width: 51%;
+    margin-left: 200px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+} 
+
+.section__six footer {
+    margin-top: 100px;
+}
