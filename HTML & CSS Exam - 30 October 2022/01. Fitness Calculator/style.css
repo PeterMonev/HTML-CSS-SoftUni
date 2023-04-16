@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 80vh;
+    margin: 40px 0px 30px 160px;
+
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: -1px 12px 26px -1px rgba(0,0,0,0.75);
+    background-color: black;
+}
+
+.left{
+    background-image: url(./image/calculator.png);
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.right  { 
+    width: 50%;
+    text-align: center;
+    background-color: #F6F7F8;
+}
+
+.right h1 {
+  font-size: 26px;
+  margin-top: 65px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.buttons {
+    margin-top: 60px;   
+}
+
+.standart {
+    margin-right: 100px;
+    padding: 5px 11px;
+    border-radius: 8px;
+    background-color: #86D862;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.metric {
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #E0E0DF;
+    border: 1px solid black;
+}
+
+form {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#gender {
+    
+    width: 30%;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px 15px 0 0;
+}
+
+#years{
+    height: 18px;
+    width: 25%;
+    font-size: 12px;
+    margin: 15px 0 0 10px;
+}
+
+.gender {
+    margin-bottom: 18px;
+}
+
+#pounds {
+    margin: 20px 0 20px 0;
+    width: 80%;
+    padding: 4px;
+    font-size: 12px;
+}
+
+#feet {
+    margin: 20px 5px 0 0 ;
+    width: 40%;
+    border:2px solid lightgray;
+    border-radius: 4px;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+#inches {
+    margin: 20px 0 0 5px;
+    width: 40%;
+    border:2px solid lightgray;
+    border-radius: 4px;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.submit {
+    margin-top: 60px
+}
+
+
+.submit input {
+    font-size: 16px;
+    padding: 8px 230px;
+    border-radius: 18px;
+    color: white;
+    background-color: #05A2D3;
+    border: none;
+    font-weight: bold;
+    box-shadow: -1px 12px 23px -8px rgba(0,0,0,0.75);
+}
