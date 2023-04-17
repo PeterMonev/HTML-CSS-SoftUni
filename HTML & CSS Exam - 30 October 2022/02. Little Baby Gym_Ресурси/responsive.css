@@ -1,0 +1,138 @@
+@media (max-width: 600px){
+     .site-header nav {
+        display: none;
+     }
+
+     .site-main {
+        margin: auto;
+     }
+
+
+     .entry-header {
+        border-radius: 0px;
+        background-image: url("./images/header-image.jpg");
+        background-repeat: no-repeat;
+         background-position: center ;
+        background-size: 250% 140%;
+     }
+
+     .entry-header button {
+        width: 25%;
+     }
+    
+     .site-logos {
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+
+     }
+     
+     .site-logos-container{
+       min-width: 300px;
+       height: 525px;
+      flex: 1 1 160px;
+       
+     }
+
+     .site-logos-container div{
+        width: 30%;
+     }
+
+     .site-information-image {
+        display: none;
+     }
+
+     .site-information {
+        text-align: center;
+     }
+
+     .site-information-text {
+        flex: none;
+        width: 100%;
+     }
+
+     .site-information-text h2 {
+        font-size: 48px
+     }
+
+     .entry-description {
+        text-align: center;
+        margin: 0 auto;
+        width: 70%;
+     }
+
+     .button-primary{
+        width: 20%;
+     }
+
+     .site-form{
+        margin: 0 auto;
+        opacity: 0.4;
+     }
+
+     .entry-title {
+        font-weight: none;
+        font-size: 8px;
+     }
+
+     form {
+  
+        text-align: center;
+     }
+
+     .site-form form > p {
+        display:flex;
+        flex-direction: column;
+        
+        margin: 0 auto;
+     }
+
+     .site-form input {
+        width: 90%;
+     }
+
+     .site-form button {
+        text-align: center;
+        margin: 0 auto;
+        padding: 15px 15px 15px 50px;
+        width: 120px;
+     }
+
+    
+
+     .site-blog-container {
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 40px;   
+     }
+
+     .site-blog-container h2 {
+        font-size: 48px;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+     }
+
+     .site-posts {
+        display: block;
+        margin-top: 50px;
+     }
+
+     .site-posts > div {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+     }
+
+     .site-post h2 {
+        font-size: 20px;
+        width: 80%;
+        margin: 15px  auto;
+     }
+
+     .site-footer {
+        display: block;
+        text-align: center;
+     }
+}
