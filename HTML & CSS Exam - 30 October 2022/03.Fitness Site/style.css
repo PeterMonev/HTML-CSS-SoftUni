@@ -1,0 +1,164 @@
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: PT Sans, PT Serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 60px;
+    background-color: #D01919;
+    color: white;
+}
+header p{
+    padding: 0;
+    margin: 0;
+}
+
+i{
+    padding: 0 5px
+}
+.first-section{
+    height: 65vh;
+    background-image: url('./image/fitness-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.first-section nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 22px;
+    margin: 0 35px;
+
+}
+.first-section nav ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 32px;
+}
+.first-section h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+.first-section p{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+.first-section button{
+    
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    background-color: #D01919;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    margin-top: 30px;
+}
+.second-section{
+    text-align: center;
+    height: 40vh;
+   
+}
+.second-section h1{
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.second-section span{
+    width: 45px;
+    display: inline-block;
+   border-top: 3px #D01919 solid;
+   margin-bottom: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 100px;
+    gap: 60px;
+}
+.cards img{
+    width: 55px;
+    height: 55px;
+}
+.cards article{
+    padding: 0 60px;
+    width: 30%;
+}
+.cards article h4{
+    font-size: 16px;
+    color: #D01919;
+}
+.cards article p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.third-section{
+    text-align: center;
+    height: 73vh;
+    background-color: #EFEFEF;
+}
+.coaches{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+    
+}
+.coaches img{
+    border-radius: 5px;
+}
+.third-section h1{
+    font-size: 34px;
+    padding-top: 30px;
+}
+
+.third-section span{
+    width: 39px;
+    display: inline-block;
+   border-top: 3.5px #D01919 solid;
+   margin-bottom: 24px;
+}
+.coaches h3{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+ 
+    padding: 0px 0px;
+}
+.coaches h4{
+    font-size: 13px;
+    margin: 0;
+    color: #D01919;
+}
+.coaches p{
+    color: #A79EB1;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 90px;
+    
+}
+
+footer{
+    background-color: #D01919;
+    text-align: center;
+    padding: 8px 0px;
+}
